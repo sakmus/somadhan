@@ -28,6 +28,6 @@ Using the program is also pretty straight forward and easy. Navigate to the main
 
 You will see some texts in the terminal where it will show the the adress of the website that's running. Click on it or copy and paste it in the browser adress bar to visit the website. It is a development server which runs on local machine but you can deploy it and use it with Nginx and other servers. For more details about deployment, read [Flask deployment manual](https://flask.palletsprojects.com/en/3.0.x/deploying/).
 
-## Warning!!
+## Licensing
 
-This project is licensed under the GNU General Pulic License (GPL) and so you can use it for any purpose and I'll not be responsible for them and you'll have to give credits for this program. Happy coding!
+This work is published under [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text) License.
