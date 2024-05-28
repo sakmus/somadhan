@@ -1,0 +1,107 @@
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+
+ .logo {
+   margin-top: 15vh;
+   width: auto;
+   max-width: 100%;
+
+ }
+
+a {
+   text-decoration: none;
+   color: darkblue;
+}
+
+a:visited {
+   color: darkblue;
+}
+
+a:hover {
+   color: beige;
+}
+
+/* Search box styling */
+#search-box {
+   margin-top: 1vh;
+   margin-left: auto;
+   margin-right: auto;
+   width: 75vw;
+   max-width: 800px;
+   justify-self: auto;
+}
+
+@media screen and (max-width: 900px) {
+   #search-box input {
+   width: 100vw;
+   display: flex;
+   justify-self: center;
+   margin-left: -3vw;
+ }
+}
+
+#search-box input {
+   width: 100%;
+   height: 2rem;
+   padding: 10px;
+   font-size: 1rem;
+   border: .35rem solid rgb(6, 132, 136);
+   border-radius: 5em;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+}
+
+/* Submit button styling */
+#submit-button {
+   margin-top: 0px;
+   width: 0px;
+   height: 0px;
+   background-color: #f1f3f400;
+   border: none;
+   border-radius: 0px;
+   font-size: 0px;
+   color: #5f636800;
+}
+
+/* Result styling */
+.result {
+   margin: 5px auto;
+   font-size: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(6, 132, 136);
+   max-width: 600px;
+   text-align: center;
+   display: block;  /* Added display property */
+   align-items: center;  /* Added align-items property */
+   justify-content: center;  /* Added justify-content property */
+}
+
+@media screen and (max-width: 600px) {
+   .result{
+      font-size: 1.5rem;
+   }
+}
+
+.plot-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.plot-div img {
+    max-width: 95vw;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: black;
+  text-align: center;
+  font-size: .95rem;
+}

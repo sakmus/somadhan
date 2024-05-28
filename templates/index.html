@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shomadhan</title>
+
+    <link rel="stylesheet" href="/static/styles/style.css">
+    <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+        <a href="/"><img class="center logo" src="/static/images/logo.png" alt="Shomadhan"></a>
+
+        <div id="search-box">
+            <form method="POST">
+                <input type="text" name="query" placeholder="Enter the mathematical equation or problem" value="{%if query%}{{query}}{% endif %}">
+                <button id="submit-button" type="submit"></button>
+            </form>
+        </div>
+
+    {% if result %}
+        <div class="result">
+            <h3>Result:</h3>
+            <p>{{result}}</p>
+        </div>
+    {% endif %}
+
+    {% if alt %}
+        <div class="plot-div">
+            <img src="{{src}}" alt="{{alt}}" class="plot">
+        </div>
+    {% endif %}
+
+    <div class="footer">
+        <p><a href="https://github.com/sakmus" title="GitHub profile" target="_blank">Sakeef Mushfique</a> &copy 2024</p>
+        <p>This program is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text" title="License statement" target="_blank">GNU General Public License 3.0</a> and any violation may result in legal action</p>
+    </div>
+</body>
+</html>
