@@ -26,7 +26,7 @@ Somadhan is a simple web application developed using the Flask framework of pyth
 Using the program is also pretty straight forward and easy. Navigate to the main branch and run the following command<br>
 `$ python3 main.py` *or,*<br> `$ python main.py`
 
-You will see some texts in the terminal where it will show the the adress of the website that's running. Click on it or copy and paste it in the browser adress bar to visit the website. It is a development server which runs on local machine but you can deploy it and use it with Nginx and other servers. For more details about deployment, read [Flask deployment manual](https://flask.palletsprojects.com/en/3.0.x/deploying/).
+You will see some texts in the terminal where it will show the the adress of the website that's running. Click on it or copy and paste it in the browser address bar to visit the website. It is a development server which runs on local machine but you can deploy it and use it with Nginx and other servers. For more details about deployment, read [Flask deployment manual](https://flask.palletsprojects.com/en/3.0.x/deploying/).
 
 ## Licensing
 
