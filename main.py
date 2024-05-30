@@ -18,7 +18,7 @@ def home():
             img = handle(response)
             return render_template('index.html', src=img[0], alt=img[1], query=query)
 
-        result = next(response.results).text
+        result = next(response.results).text.replace("integral", "int").replace("constant", "const")
         return render_template('index.html', result=result, query=query)
 
     return render_template('index.html')
