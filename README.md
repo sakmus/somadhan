@@ -16,11 +16,11 @@ Somadhan is a simple web application developed using the Flask framework of pyth
 - The installation is very simple and fast. Download and extract the zip file of this repository or clone it using:<br>
 `$ git clone https://github.com/sakmus/somadhan`
 
-- Install the required packages using pip:<br>`$ pip install flask wolframalpha`
+- Activate the virtual environment in Linux and MacOS:<br>`$ source env/bin/activate`
 
-- Get your own API key or AppID from [Wolfram Alpha developer portal](https://developer.wolframalpha.com/) and paste it in 'api.key' file.
+- Install the required packages with pip (Windows):<br>`$ pip install flask wolframalpha python-dotenv`
 
-*Note:* For installing the additional packages using pip in Linux, you might need to to use virtual environment for the program.
+- Get your own API key or AppID from [Wolfram Alpha developer portal](https://developer.wolframalpha.com/) and set it as the value of 'APP_ID' in '.env' file.
 
 
 ## Usage
@@ -28,7 +28,7 @@ Somadhan is a simple web application developed using the Flask framework of pyth
 Using the program is also pretty straight forward and easy. Navigate to the main branch and run the following command<br>
 `$ python3 main.py` *or,*<br> `$ python main.py`
 
-You will see some texts in the terminal where it will show the the adress of the website that's running. Click on it or copy and paste it in the browser address bar to visit the website. It is a development server which runs on local machine but you can deploy it and use it with Nginx and other servers. For more details about deployment, read [Flask deployment manual](https://flask.palletsprojects.com/en/3.0.x/deploying/).
+You will see some texts in the terminal showing the the adress of the website. Click on it or copy and paste it in the browser address bar to visit the website. It is a development server which runs on local machine but you can deploy it with servers like [Nginx](https://nginx.org/). For more details about deployment, read [Flask deployment manual](https://flask.palletsprojects.com/en/3.0.x/deploying/).
 
 ## Licensing
 

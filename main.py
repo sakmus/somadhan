@@ -1,10 +1,8 @@
 from flask import Flask, render_template, request
-import wolframalpha
+import wolframalpha, dotenv, os
 
-fh = open('api.key')
-key = fh.readline()
-fh.close()
-client = wolframalpha.Client(key)
+dotenv.load_dotenv(override=True)
+client = wolframalpha.Client(os.getenv("APP_ID"))
 app = Flask(__name__)
 
 
