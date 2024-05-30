@@ -18,7 +18,7 @@ Somadhan is a simple web application developed using the Flask framework of pyth
 
 - Activate the virtual environment in Linux and MacOS:<br>`$ source env/bin/activate`
 
-- Install the required packages with pip (Windows):<br>`$ pip install flask wolframalpha python-dotenv`
+- Install the required packages with pip:<br>`$ pip install flask wolframalpha python-dotenv`
 
 - Get your own API key or AppID from [Wolfram Alpha developer portal](https://developer.wolframalpha.com/) and set it as the value of 'APP_ID' in '.env' file.
 
