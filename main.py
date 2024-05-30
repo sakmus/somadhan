@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import wolframalpha, dotenv, os
 
-dotenv.load_dotenv(override=True)
+dotenv.load_dotenv(override=True) 
 client = wolframalpha.Client(os.getenv("APP_ID"))
 app = Flask(__name__)
 
