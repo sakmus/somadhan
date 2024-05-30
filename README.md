@@ -3,6 +3,8 @@
 
 Somadhan is a simple web application developed using the Flask framework of python. It starts a dynamic website which solves mathematical problems within a few seconds. It uses the Wolframalpha API to solve problems and show outputs. Currently it can only provide one-line solution and some basic plotting features.
 
+![A screenshot of Somadhan web-interface](https://images2.imgbox.com/41/87/0V4d4lb2_o.png)
+
 
 ## Prerequisites
 
